@@ -1,0 +1,17 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(235, 234, 255);
+    margin: 0px;
+}
+
+header {
+    background-color: #edfbe6;
+    padding: 50px;
+}
+
+h1 {font-size: xx-large;}
+
+main section {
+    display: inline-block;
+}
+
