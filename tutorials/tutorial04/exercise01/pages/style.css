@@ -1,0 +1,30 @@
+body {
+   background-color: #F0F4EF;
+}
+header {
+    background-color: #b4cded;
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+nav {
+    text-align: center;
+    background-color: black;
+  color: white;
+    display: flex;
+  justify-content: space-evenly;
+}
+a:link {
+    text-decoration: none;
+    color:white;
+    
+}
+a:visited {
+    color: white;
+    
+  }
+  footer {
+    background-color: #344966;
+color: white;}
+
+
+

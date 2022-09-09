@@ -1,0 +1,38 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body * {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+/* Your CSS Code Here! */
+header {padding: 60px;
+    text-align: center;
+    background: #fad3e4;
+    color: white;
+    font-size: 30px;}
+    a {color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+.dog {
+    border-radius: 50%;
+  }
+  
+p {
+    font-size: large;
+    font-style: initial;
+    align-items: flex-start;
+padding-left: 25%;}
+
+.card {
+        min-height: 50px;
+        border: solid 1px black;
+        margin: 10px;
+        display: grid;
+    
+}
