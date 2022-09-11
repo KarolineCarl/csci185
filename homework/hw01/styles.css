@@ -9,7 +9,48 @@ body * {
 body {
     margin: 0;
 }
-
+.contact-details {
+    display: grid;
+    grid-template-columns: 3fr 2fr;
+    column-gap: 40px;
+}
+#contact {
+    padding-left: 10vw;
+    padding-right: 10vw;
+}
+#name {
+    width: 200px;
+}
+#email {
+    width: 300px;
+}
+#contact-info .row {
+    display: grid;
+    grid-template-columns: 40px auto;
+margin-bottom: 20px;
+}
+.row p {
+    margin: 0:
+}
+form .row1 {
+    display: grid;
+    grid-template-columns: 40% 60%;
+column-gap: 15px;
+}
+form .row {
+    margin-bottom: 10px;
+}
+input, textarea {
+    background-color: gainsboro;
+    border: none ;
+    border-radius: 5px;
+}
+#submit {
+    background-color: rgb(250, 223, 228);
+}
+#message {
+    width: 100%;
+}
 /* Your CSS Code Here! */
 header {padding: 60px;
     text-align: center;
@@ -23,16 +64,28 @@ header {padding: 60px;
     border-radius: 50%;
   }
   
-p {
-    font-size: large;
-    font-style: initial;
-    align-items: flex-start;
-padding-left: 25%;}
+
 
 .card {
-        min-height: 50px;
-        border: solid 1px black;
-        margin: 10px;
+        margin-right: 60%;
         display: grid;
+        grid-template-columns: 3fr 2fr;
+        border: solid 1px rgb(0, 0, 0);
+        line-height: 25%;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        line-height: 50px;} 
+
+footer {
+    background-color: lightgrey;
+    margin: 0;
+    line-height: 200px;
+    width: 100%
+    
+}
+footer p {
+   font-size: large;
+    text-align: center;
     
 }
