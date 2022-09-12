@@ -63,13 +63,12 @@ header {padding: 60px;
 .dog {
     border-radius: 50%;
   }
-  
-
-
+select {
+    display: grid;
+    grid-template-columns: 1px 1px;
+}
 .card {
         margin-right: 60%;
-        display: grid;
-        grid-template-columns: 3fr 2fr;
         border: solid 1px rgb(0, 0, 0);
         line-height: 25%;
         display: flex;

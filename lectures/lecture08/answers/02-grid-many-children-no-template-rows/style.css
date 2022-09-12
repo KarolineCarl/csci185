@@ -1,0 +1,30 @@
+body * {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+main {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 30px;
+    row-gap: 30px;
+    margin-left: 10vw;
+    margin-right: 10vw;
+}
+
+.card {
+    border: solid 1px #EEE;
+    min-height: 250px;
+}
+
+.card img {
+    width: 100%;
+}
+.card h2, .card p, .card button {
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 15px;
+}
