@@ -1,0 +1,17 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+main {
+    height: 100vh;
+}
+
+section {
+    border: solid 4px orangered;
+    width: 200px;
+    height: 75px;
+    text-align: center;
+    margin: 2vw;
+    margin-left: 40%;
+
+}
