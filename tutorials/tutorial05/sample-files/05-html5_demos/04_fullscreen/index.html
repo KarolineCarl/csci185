@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+    <meta charset="UTF-8">
+    <title>Fullscreen API Demo</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+
+    <div id="page-wrapper">
+
+        <h1>Fullscreen API Demo</h1>
+
+        <section>
+            <h2>Full Screen Document</h2>
+            <button id="fs-doc-button">Go Fullscreen</button>
+            <button id="fs-exit-doc-button">Exit Fullscreen</button>
+        </section>
+
+        <hr>
+
+        <section>
+            <h2>Full Screen Videos</h2>
+            <video id="video" width="640" height="365" controls>
+            <source src="https://www.w3schools.com/howto/rain.mp4" type="video/mp4">
+            <p>
+                Your browser doesn't support HTML5 video.
+                <a href="http://demos.mattwest.io/page-visibility-demo/videos/mikethefrog.mp4">Download</a> the video instead.
+            </p>
+            </video>
+            <button id="fs-vid-button">Go Fullscreen</button>
+        </section>
+
+        <hr>
+
+        <section>
+            <h2>Full Screen Images</h2>
+            <img id="image" src="http://placeimg.com/1240/880/nature?num=1" alt="Test Image">
+            <button id="fs-img-button">Go Fullscreen</button>
+        </section>
+    </div>
+
+<script  src="script.js"></script>
+
+</body>
+</html>

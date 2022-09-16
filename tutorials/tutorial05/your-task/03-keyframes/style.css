@@ -1,0 +1,78 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto|Open+Sans");
+@import url("https://use.fontawesome.com/releases/v5.8.1/css/all.css");
+
+
+#cloud1 {
+    position: absolute;
+    color: #DDD;
+    top: 20px;
+    left: -150px;
+    font-size: 120px;
+   
+    animation-timing-function: linear;
+    animation-iteration-count: infinite; 
+    animation-name: moveCloudRight;
+    animation-delay: 1s;
+    animation-duration: 12s;
+}
+
+#cloud2 {
+    position: absolute;
+    color: #EEE;
+    top: 0px;
+    left: calc(100vw + 100px);
+    font-size: 60px;
+    
+     animation-timing-function: linear;
+    animation-iteration-count: infinite; 
+    animation-name: moveCloudLeft;
+    animation-delay: 3s;
+    animation-duration: 5s; 
+}
+
+#sun {
+    position: absolute;
+    color: #FF3300;
+    top: calc(100vh - 40px);
+    left: calc(50vw - 50px); 
+    font-size: 200px;
+     animation-timing-function: linear;
+    animation-iteration-count: infinite; 
+    animation-name: sunrise;
+    animation-delay: 3s;
+    animation-duration: 5s; 
+
+
+    /* Add animation properties for the sun here: */
+    /* animation-fill-mode: forwards; */
+    
+}
+
+@keyframes moveCloudRight {
+    from { 
+        left: -150px;
+    }
+    to { 
+        left: calc(100vw + 100px); 
+    }
+}
+
+@keyframes moveCloudLeft {
+    from { 
+        left: calc(100vw + 100px); 
+    }
+    to { 
+        left: -100px; 
+    }
+} */
+
+
+
+ @keyframes sunrise {
+    from { 
+        bottom: -150px
+    }
+    to { 
+top: calc(100vw + 100px);
+    }
+} */

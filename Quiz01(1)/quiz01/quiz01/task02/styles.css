@@ -6,6 +6,7 @@ header {
     background-color: #45425a;
     color: white;
     padding: 20px;
+    text-align: center;
 }
 
 footer {
@@ -45,7 +46,6 @@ code {
 .card img {
     width: 100%;
     border: solid 2px #000;
-    border-radius: 50%;
     
 }
 
@@ -54,6 +54,15 @@ footer {
     padding: 30px;
     margin-top: 30px;
     text-align: center;
+}
+#card1 img {
+    border-radius: 50%;
+}
+#card3 img {
+    border-radius: 50%;
+}
+#card5 img {
+    border-radius: 50%;
 }
 #card2 {
     background-color: #BCE5D6;
