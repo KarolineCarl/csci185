@@ -1,0 +1,135 @@
+body {
+    font-family: "Helvetica Neue", "Helvetica", Arial, sans-serif;
+    color: #fff;
+}
+a, a:hover, a:visited, a:active { 
+    color: #fff;
+    text-decoration: none;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+/**********/
+/* Layout */
+/**********/
+aside, footer, header, nav, section, article {
+    display: flex;
+    flex-direction: column;
+}
+body {
+    overflow: hidden;
+    margin: 0px;
+    height: 100vh;
+    /* body tag is a grid */
+    display: grid;
+    grid-template-columns: 250px auto;
+    grid-template-rows: auto 100px;
+}
+aside {
+    background-color: #000;
+    grid-column-start: 1;
+}
+header {
+    background: #111;
+    position: sticky;
+    top: 0px;
+}
+
+/* Uncomment to see borders:  */
+/* header, nav, article {
+    border: solid 5px teal;
+    padding: 10px;
+}
+main {
+    border: solid 5px hotpink;
+    padding: 10px;
+} */
+
+main {
+    background: #111;
+    grid-column-start: 2;
+    overflow-y: auto;
+    z-index: 3;
+}
+
+footer {
+    background: #222;
+    grid-row-start: 2;
+    grid-column-start: 1;
+    grid-column-end: span 2;
+}
+
+
+/***************************/
+/* Accessories & Florishes */
+/***************************/
+::-webkit-scrollbar {
+    width: 16px;
+}
+
+::-webkit-scrollbar-thumb {
+    border: 4px solid transparent;
+    border-radius: 16px;
+    background-clip: padding-box;
+    min-height: 30px;
+}
+::-webkit-scrollbar-thumb {
+    background-color: hsla(0,0%,100%,.3);
+}
+
+/***************************/
+/* Part A: Left Navigation */
+/***************************/
+
+/* Your Code Here */
+
+
+
+/********************************/
+/* Part B: Header & Nav Styling */
+/********************************/
+
+/* Your Code Here */
+
+
+
+
+
+/*************************/
+/* Part C: Artists Panel */
+/*************************/
+
+/* Your Code Here.
+   For the desktop view, there should be 5 cards per row.
+*/
+
+
+
+
+
+
+/**************************/
+/* Part D: Responsive UIs */
+/**************************/
+
+/* Your Code Here */
+
+@media screen and (max-width: 1000px) {
+    /* 
+        Tablet Display: 3 cards per row!
+    
+    */
+}
+
+
+@media screen and (max-width: 700px) {
+    /* Mobile Display 
+        * 2 cards per row
+        * The aside panel and "Upgrade" button should no longer be visible.
+        * There should only be a 1-column layout.
+    */
+}
+
+

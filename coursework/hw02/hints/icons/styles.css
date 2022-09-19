@@ -1,0 +1,22 @@
+i {
+    color: red;
+}
+i.md {
+    font-size: 2em;
+    color: purple;
+}
+
+i.lg {
+    font-size: 3em;
+    color: blue;
+}
+
+i.xl {
+    font-size: 4em;
+    color: yellow;
+}
+
+i.xxl {
+    font-size: 5em;
+    color: green;
+}
