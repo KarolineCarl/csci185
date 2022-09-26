@@ -35,6 +35,19 @@ header {
     background: #111;
     position: sticky;
     top: 0px;
+    text-align: right;
+    font-size: large;
+    
+}
+.upgrade {
+    border: 2px solid #ffffff;
+  padding: 5px;
+  text-align: center;
+  font-size: 16px;
+  margin: 2px 2px;
+  border-radius: 40%;
+  max-width: 15%;
+
 }
 
 /* Uncomment to see borders:  */
@@ -82,7 +95,19 @@ footer {
 /***************************/
 /* Part A: Left Navigation */
 /***************************/
-
+h1 {
+    font-size: x-large;
+}
+.search  {
+    border-top: none;
+    height: 5%;
+    font-size: large;
+}
+.home {
+    border-top: none;
+    height: 5%;
+    font-size: large;
+}
 /* Your Code Here */
 
 
@@ -101,6 +126,17 @@ footer {
 /* Part C: Artists Panel */
 /*************************/
 
+div {
+
+    margin-right: 60%;
+    display: grid;
+    border: solid 1px rgb(0, 0, 0);
+    line-height: 25%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    line-height: 50px;
+}
 /* Your Code Here.
    For the desktop view, there should be 5 cards per row.
 */
