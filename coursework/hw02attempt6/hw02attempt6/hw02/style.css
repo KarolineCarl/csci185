@@ -117,16 +117,15 @@ h1 {
 /* Part B: Header & Nav Styling */
 /********************************/
 .upgrade {
-    position: relative;
-    top:30px;
-    left:1040px;
+    position: fixed;
+    top:20px;
+    left:1310px;
 }
 
 .profile {
-    position: relative;
-    top: -7px;
+    position: fixed;
+    top: -10px;
     right: 18px
-    
 }
 
 .nav {
@@ -136,29 +135,11 @@ h1 {
     top: 20;
     width: 85%;
   }
-  
-  .nav a {
-    float: left;
-    display: block;
-    color: #f2f2f2;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-  }
-  
-  .nav a:hover {
-    background: #111;
-    color: white;
-    border-bottom: green;
-  }
-  
+
+
   .main {
     margin-top: 30px;
-    
   }
-
-
-
 
 
 /*************************/
