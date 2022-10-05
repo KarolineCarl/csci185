@@ -35,20 +35,8 @@ header {
     background: #111;
     position: sticky;
     top: 0px;
-    text-align: right;
-    font-size: large;
-    
 }
-.upgrade {
-    border: 2px solid #ffffff;
-  padding: 5px;
-  text-align: center;
-  font-size: 16px;
-  margin: 2px 2px;
-  border-radius: 40%;
-  max-width: 15%;
 
-}
 
 /* Uncomment to see borders:  */
 /* header, nav, article {
@@ -108,39 +96,82 @@ h1 {
     height: 5%;
     font-size: large;
 }
-/* Your Code Here */
+
 
 
 
 /********************************/
 /* Part B: Header & Nav Styling */
 /********************************/
+.upgrade {
+    position: relative;
+    top:20px;
+    left:1310px;
+}
 
-/* Your Code Here */
+.profile {
+    position: relative;
+    top: -10px;
+    right: 18px
+}
 
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #111;
+    
+}
 
+li {
+    float: left;
+}
 
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
 
+li a:hover {
+    border-bottom: green;
+}
+
+.selected {
+    border-bottom: green;
+}
 
 /*************************/
 /* Part C: Artists Panel */
 /*************************/
 
-div {
-
-    margin-right: 60%;
-    display: grid;
-    border: solid 1px rgb(0, 0, 0);
-    line-height: 25%;
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    line-height: 50px;
-}
 /* Your Code Here.
    For the desktop view, there should be 5 cards per row.
 */
 
+.artist-card {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    row-gap: 20px;
+    column-gap: 20px;
+    margin: 0 auto;
+    max-width: 1000px;
+    gap:20px;
+}
+
+.artist-card {
+    border: solid 2px #222;
+    padding: 5px;
+    background-color: #222;
+}
+.artist-card img {
+    width: 100%;
+    border: solid 2px #222;
+    border-radius: 50%;
+}
 
 
 
