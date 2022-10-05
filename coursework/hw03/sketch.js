@@ -45,7 +45,7 @@ function drawCircle(centerX, centerY, size, fillColor) {
 // modify this function so that it accepts and honors
 // the following parameters: centerX, centerY, sizeX, sizeY, and fillColor
 function drawOval(centerX, centerY, size, fillColor) {
-    fill('teal');
+    fill('gold');
     ellipse(200, 400, 100, 60);
 }
 
@@ -59,8 +59,8 @@ function drawFace(centerX, centerY, size, fillColor) {
     circle(100, 400, 50);
     fill('black');
     circle(92, 392, 8);
-    circle(108, 392, 8);
-}
+    circle(108, 392, 8);}
+
 function drawFace(centerX, centerY, size, fillColor) {
      circle(100, 400, 150);
      fill('white');
@@ -69,3 +69,4 @@ function drawFace(centerX, centerY, size, fillColor) {
     circle(92, 392, 8);
     circle(108, 392, 8);
 }
+

@@ -107,6 +107,7 @@ h1 {
     position: relative;
     top:20px;
     left:1310px;
+   justify-content: flex-end;
 }
 
 .profile {
@@ -132,12 +133,19 @@ li a {
     display: block;
     color: white;
     text-align: center;
-    padding: 14px 16px;
+    padding: 20px 16px;
     text-decoration: none;
+    width: 0%;
+    height: 3px;
+    margin-top: 15px;
+    text-align: center;
 }
 
 li a:hover {
-    border-bottom: green;
+    background-color:green;
+   
+    margin-top: 10px;
+    text-align: center;
 }
 
 .selected {
@@ -152,17 +160,16 @@ li a:hover {
    For the desktop view, there should be 5 cards per row.
 */
 
-.artist-card {
-    display: grid;
-    grid-template-columns: repeat(5, 1fr);
-    row-gap: 20px;
-    column-gap: 20px;
-    margin: 0 auto;
-    max-width: 1000px;
-    gap:20px;
-}
 
 .artist-card {
+display:flex;
+align-items: flex-start;
+    row-gap: 20px;
+    margin: 1% auto;
+    max-width: 1000px;
+    gap:30px;
+    border-radius: 5%;
+    text-align: center;
     border: solid 2px #222;
     padding: 5px;
     background-color: #222;
@@ -172,7 +179,6 @@ li a:hover {
     border: solid 2px #222;
     border-radius: 50%;
 }
-
 
 
 
