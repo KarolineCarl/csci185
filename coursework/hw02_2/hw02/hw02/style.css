@@ -50,7 +50,6 @@ header {
 
 }
 
-
 /* Uncomment to see borders:  */
 /* header, nav, article {
     border: solid 5px teal;
@@ -109,39 +108,48 @@ h1 {
     height: 5%;
     font-size: large;
 }
-
+/* Your Code Here */
 
 
 
 /********************************/
 /* Part B: Header & Nav Styling */
 /********************************/
-.upgrade {
-    position: fixed;
-    top:20px;
-    left:1310px;
-}
 
+.upgrade {
+    position: relative;
+    top: 20px;
+    left: 1400px;
+}
 .profile {
-    position: fixed;
-    top: -10px;
+    position: relative;
+    top: -7px;
     right: 18px
 }
 
-.nav {
+.navbar {
     overflow: hidden;
-    background-color: white;
+    background-color: #111;
     position: fixed;
     top: 20;
     width: 85%;
   }
-
-  .nav a:hover {
+  
+  .navbar a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  .navbar a:hover {
     background: #111;
     color: white;
     border-bottom: green;
   }
-
+  
   .main {
     margin-top: 30px;
   }
