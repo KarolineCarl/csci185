@@ -130,12 +130,17 @@ h1 {
 
 .nav {
     overflow: hidden;
-    background-color: #111;
+    background-color: white;
     position: fixed;
     top: 20;
     width: 85%;
   }
 
+  .nav a:hover {
+    background: #111;
+    color: white;
+    border-bottom: green;
+  }
 
   .main {
     margin-top: 30px;
