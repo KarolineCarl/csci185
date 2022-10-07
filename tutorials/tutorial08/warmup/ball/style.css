@@ -1,0 +1,10 @@
+* {
+  box-sizing: border-box;  
+}
+body {
+    margin: 0px;
+    overflow: hidden;
+}
+main {
+    height: 100vh;
+}
