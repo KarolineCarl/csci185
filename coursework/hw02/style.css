@@ -103,19 +103,17 @@ h1 {
 /********************************/
 /* Part B: Header & Nav Styling */
 /********************************/
-.upgrade {
-    position: relative;
-    top:20px;
-    left:1310px;
-   justify-content: flex-end;
-}
-
-.profile {
-    position: relative;
-    top: -10px;
-    right: 18px
-}
-
+#upgrade {
+    border: rgb(255, 255, 255) solid 1px;
+    border-radius: 42px; padding: 10px 40px;
+    text-align: end;
+  }
+  
+  #profile {
+     background-color: rgb(65, 64, 64);
+     border-radius: 42px; padding: 10px 40px;
+     text-align: end;
+  }
 ul {
     list-style-type: none;
     margin: 0;
