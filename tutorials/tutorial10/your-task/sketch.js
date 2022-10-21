@@ -37,3 +37,4 @@ function mouseClicked() {
 function mouseDragged() {
     drawCreature(mouseX, mouseY, Math.random()* 50 + 50);
 }
+function 
