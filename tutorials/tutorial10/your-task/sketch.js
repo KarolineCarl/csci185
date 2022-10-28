@@ -4,13 +4,6 @@ const canvasHeight = window.innerHeight;
     
 function setup() {
     createCanvas(canvasWidth, canvasHeight);
-
-    drawCreature(425, 225, 200);
-    
-    fill('black');
-    textAlign(CENTER);
-    textSize(16);
-    text("Click for Fish.", canvasWidth/2, canvasHeight/2);
 }
 
 // replace this function with YOUR creature!

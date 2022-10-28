@@ -23,7 +23,7 @@ function getRandomColor() {
     return palette[idx];
 }
 
-function mouseDragged() {
+function mouseClicked() {
     // 1. When you drag your mouse, create a bubble 
     //    object and add it to the "bubbles" list.
     const bubble = {
@@ -42,10 +42,10 @@ function draw() {
     for (const bubble of bubbles) {
         fill(bubble.color);
         circle(bubble.x, bubble.y, bubble.d);
-        bubble.y += bubble.speed;
+        bubble.x += bubble.speed;
 
-        if (bubble.y < -100) {
-            bubble.y = canvasHeight + 100;
+        if (bubble.x < -100) {
+            bubble.x = canvasHeight + 100;
         }
     }
 
