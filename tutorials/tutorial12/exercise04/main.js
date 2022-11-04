@@ -10,3 +10,7 @@ const restaurants = [
     { name: "Murasaki Asheville", rating: 4.5, price: "$$", review_count: 23, category: "sushi" }
 ];
 
+for (let i = 0; i < restaurants length; i++) {
+    if(restaurants[i].category == 'pizza'){
+    document.querySelector('#output').innerHTML += `<p> ${restaurants[i].name}</p>`;
+}}
