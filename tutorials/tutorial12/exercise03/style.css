@@ -1,0 +1,14 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 20px 200px;
+    font-size: 1.2em;
+    line-height: 1.6em;
+}
+
+#output {
+    background: #F0F0F0;
+    min-height: 300px;
+    border: solid 1px #CCC;
+    border-radius: 10px;
+    padding: 10px;
+}
