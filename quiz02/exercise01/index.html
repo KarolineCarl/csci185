@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Exercise 1</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="main.js" defer></script>
+    </head>
+    <body>
+        <header>
+            <h1>Create and Attach Event Handlers to the Buttons</h1>
+            <div>
+                <button id="fox" value="Fox" onclick="changeImg('images/Fox.jpg'); changeTxt(value)">Fox</button>
+                <button id="lion" value="Lion" onclick="changeImg('images/Lion.jpg'); changeTxt(value)">Lion</button>
+                <button id="tiger" value="Tiger" onclick="changeImg('images/Tiger.png'); changeTxt(value)">Tiger</button>
+                <button id="zebra" value="Zebra" onclick="changeImg('images/Zebra.jpg'); changeTxt(value)">Zebra</button>
+            </div>
+        </header>
+
+        <main>
+            <section class="card">
+                <img src="images/spongebob.webp" />
+
+                <p id="myPara">Spongebob</p>
+            </section>
+        </main>
+        <img id="imgPic" />
+        <script>
+            function changeImg(filename) {
+                let img = document.querySelector('img');
+                img.setAttribute('src', filename);
+            }
+
+            function changeTxt(value) {
+                document.getElementById("myPara").innerHTML = value;
+            }                   
+        </script>
+
+    </body>
+</html>
