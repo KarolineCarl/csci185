@@ -1,0 +1,32 @@
+
+
+h1 {
+    font-size: x-large;
+    text-decoration: none;
+
+}
+.search  {
+    border-top: none;
+    height: 5%;
+    font-size: large;
+    text-decoration: none;
+}
+.home {
+    border-top: none;
+    height: 5%;
+    font-size: large;
+    text-decoration: none; 
+}
+.selected {
+    text-decoration: none;
+}
+.Illustrator {
+    text-decoration: none;
+}
+aside, footer, header, nav, section, article {
+    display: flex;
+    flex-direction: column;
+}
+
+
+
