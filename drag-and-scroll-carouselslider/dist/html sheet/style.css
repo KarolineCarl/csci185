@@ -1,6 +1,5 @@
 
-
-h1 {
+.h1 {
     font-size: x-large;
     text-decoration: none;
 
@@ -10,22 +9,27 @@ h1 {
     height: 5%;
     font-size: large;
     text-decoration: none;
+    text-align: center;
 }
 .home {
     border-top: none;
     height: 5%;
     font-size: large;
     text-decoration: none; 
+    text-align: center;
 }
 .selected {
     text-decoration: none;
+    text-align: center;
 }
 .Illustrator {
     text-decoration: none;
+    text-align: center;
 }
 aside, footer, header, nav, section, article {
     display: flex;
     flex-direction: column;
+    text-align: center;
 }
 
 

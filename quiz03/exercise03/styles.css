@@ -1,0 +1,19 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 5vh 10vw;
+}
+
+#results {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    row-gap: 20px;
+    column-gap: 20px;
+}
+header {
+    margin-bottom: 20px;
+}
+.course {
+    border: solid 1px #CCC;
+    padding: 10px;
+    background: #F0F0F0;
+}

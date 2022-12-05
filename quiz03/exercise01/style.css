@@ -1,0 +1,19 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    display: grid;
+    justify-content: center;
+}
+
+#grid {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    row-gap: 20px;
+    column-gap: 20px;
+}
+
+#grid > div {
+    border: solid 2px #000;
+    height: 200px;
+    width: 200px;
+    cursor: pointer;
+}
