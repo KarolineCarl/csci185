@@ -2,19 +2,15 @@
 .h1 {
     font-size: x-large;
     text-decoration: none;
-
+    text-align: center;
 }
 .search  {
-    border-top: none;
-    height: 5%;
-    font-size: large;
+    border-top: none;  ;
     text-decoration: none;
     text-align: center;
 }
 .home {
     border-top: none;
-    height: 5%;
-    font-size: large;
     text-decoration: none; 
     text-align: center;
 }
@@ -26,11 +22,11 @@
     text-decoration: none;
     text-align: center;
 }
-aside, footer, header, nav, section, article {
+.aside, footer, header, nav, section, article {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+        background: conic-gradient(rgb(255, 187, 217) 180deg,  rgb(255, 255, 155) 170deg);
+}
+#sidebar {
     text-align: center;
 }
-
-
-
